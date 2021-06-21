@@ -5,6 +5,23 @@
 }
 
 :root {
+    --white: #2b2735;
+
+    --gray-50: #0a090c;
+    --gray-100: #3e394c;
+    --gray-200: #c1b6c5;
+    --gray-500: rgb(206, 202, 207);
+    --gray-800: #c2c0c4;
+
+    --green-500: #03bb56;
+    
+    --purple-300: #9F75FF;
+    --purple-400: #9164FA; 
+    --purple-500: #8257E5;
+    --purple-800: #6F48C9;
+}
+
+.dark {
     --white: #FFF;
 
     --gray-50: #F7F8FA;
