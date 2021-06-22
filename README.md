@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="moveit" title="moveit" src=".github/podcastr.png" />
+  <img alt="podcastr" title="podcastr" src=".github/podcastr.png" />
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="moveit" title="moveit" src=".github/podcastrScreen.png" />
+  <img alt="podcastr" title="podcastr" src=".github/podcastrScreen.png" />
 </p>
 
 ## 💻 Tecnologias
