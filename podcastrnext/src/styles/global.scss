@@ -5,23 +5,6 @@
 }
 
 :root {
-    --white: #2b2735;
-
-    --gray-50: #0a090c;
-    --gray-100: #3e394c;
-    --gray-200: #c1b6c5;
-    --gray-500: rgb(206, 202, 207);
-    --gray-800: #c2c0c4;
-
-    --green-500: #03bb56;
-    
-    --purple-300: #9F75FF;
-    --purple-400: #9164FA; 
-    --purple-500: #8257E5;
-    --purple-800: #6F48C9;
-}
-
-.dark {
     --white: #FFF;
 
     --gray-50: #F7F8FA;
@@ -31,6 +14,24 @@
     --gray-800: #494D4B;
 
     --green-500: #04D361;
+    
+    --purple-300: #9F75FF;
+    --purple-400: #9164FA; 
+    --purple-500: #8257E5;
+    --purple-800: #6F48C9;
+    
+}
+
+.dark {
+    --white: #2b2735;
+
+    --gray-50: #0a090c;
+    --gray-100: #3e394c;
+    --gray-200: #c1b6c5;
+    --gray-500: rgb(206, 202, 207);
+    --gray-800: #c2c0c4;
+
+    --green-500: #03bb56;
     
     --purple-300: #9F75FF;
     --purple-400: #9164FA; 
@@ -83,3 +84,19 @@ h2 {
 button {
     cursor: pointer;
 }
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  *::-webkit-scrollbar-track {
+    background: var(--gray-100);   
+  }
+   
+  /* Handle */
+  *::-webkit-scrollbar-thumb {
+    background: var(--gray-200); 
+  }
+  
+  
